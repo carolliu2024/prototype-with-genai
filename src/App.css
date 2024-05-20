@@ -1,54 +1,47 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-button {
-  font-size: calc(10px + 2vmin);
-}
-
-/* TIMER */
 /* src/App.css */
-.timer {
+.App {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+
+.name-input {
+  margin-top: 20px; /* Adjust spacing above the name input section */
+}
+
+.name-input input {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.name-input button {
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.name-list {
+  margin-top: 10px;
+}
+
+.name-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.name-list li {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .timer h1 {
@@ -78,4 +71,8 @@ button {
 .inputs span {
   font-size: 2rem;
   margin: 0 1em; /* Spacing using em units to keep it relative */
+}
+
+.current-name h2 {
+  margin-top: 20px;
 }
