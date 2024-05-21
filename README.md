@@ -1,4 +1,8 @@
 ## Experience with using GenAI for prototyping
+Briefly describe what the code is supposed to do.
+- The code is supposed to create a timer application that acts as a tool for managing rotations in a subswarm. On the screen is a timer that that counts down from an initial time that any subswarm member
+can set. Members can also start/pause the timer, and see the order of whose turn is next in the rotation. A visual alert will appear when the timer is at the 2-minute mark. 
+
 Does the code work? If not, what's broken?
 - Yes, the code works.
 How is the code better than what the team currently has?
